@@ -15,4 +15,7 @@ squirrel_count_data = {
     "Count": [Num_Black_Squirrels, Num_Gray_Squirrels, Num_Cinnamon_Squirrels]
 }
 
+new_squirrel_data = pandas.DataFrame(squirrel_count_data)
+print(new_squirrel_data)
+
 
