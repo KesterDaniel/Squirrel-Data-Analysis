@@ -16,6 +16,6 @@ squirrel_count_data = {
 }
 
 new_squirrel_data = pandas.DataFrame(squirrel_count_data)
-print(new_squirrel_data)
+new_squirrel_data.to_csv("squirrel_count.csv")
 
 
